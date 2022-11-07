@@ -3,7 +3,7 @@ If you think the project is helpful to you, please give me a star to encourage m
 
 # PowerProto
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/storyicon/powerproto?t=2)](https://goreportcard.com/report/github.com/storyicon/powerproto) ![TotalLine](https://img.shields.io/tokei/lines/github/storyicon/powerproto?color=77%2C199%2C31) ![last-commit](https://img.shields.io/github/last-commit/storyicon/powerproto) [![GoDoc](https://godoc.org/github.com/storyicon/powerproto?status.svg)](https://godoc.org/github.com/storyicon/powerproto) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/smzgl/powerproto?t=2)](https://goreportcard.com/report/github.com/smzgl/powerproto) ![TotalLine](https://img.shields.io/tokei/lines/github/smzgl/powerproto?color=77%2C199%2C31) ![last-commit](https://img.shields.io/github/last-commit/smzgl/powerproto) [![GoDoc](https://godoc.org/github.com/smzgl/powerproto?status.svg)](https://godoc.org/github.com/smzgl/powerproto) 
 
 **English** | [中文](README_CN.md)
 
@@ -64,12 +64,12 @@ PowerProto is used to solve the following three main problems:
 Installation can be performed by executing the following command directly:
 
 ```
-go install github.com/storyicon/powerproto/cmd/powerproto@latest
+go install github.com/smzgl/powerproto/cmd/powerproto@latest
 ```
 
 ### II. out-of-the-box version
 
-You can download the out-of-the-box version via the [`Github Release Page`](https://github.com/storyicon/powerproto/releases)
+You can download the out-of-the-box version via the [`Github Release Page`](https://github.com/smzgl/powerproto/releases)
 
 
 ## Command Introduction
@@ -235,7 +235,7 @@ $POWERPROTO_HOME/protoc/3.17.3/protoc --go_out=. \
 /mnt/data/hello/apis/hello.proto
 ```
 
-More examples can be found in [examples](https://github.com/storyicon/powerproto/tree/master/examples).
+More examples can be found in [examples](https://github.com/smzgl/powerproto/tree/master/examples).
 
 
 ## Config File

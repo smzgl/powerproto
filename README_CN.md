@@ -1,6 +1,6 @@
 # PowerProto
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/storyicon/powerproto?t=2)](https://goreportcard.com/report/github.com/storyicon/powerproto) ![TotalLine](https://img.shields.io/tokei/lines/github/storyicon/powerproto?color=77%2C199%2C31) ![last-commit](https://img.shields.io/github/last-commit/storyicon/powerproto) [![GoDoc](https://godoc.org/github.com/storyicon/powerproto?status.svg)](https://godoc.org/github.com/storyicon/powerproto) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/smzgl/powerproto?t=2)](https://goreportcard.com/report/github.com/smzgl/powerproto) ![TotalLine](https://img.shields.io/tokei/lines/github/smzgl/powerproto?color=77%2C199%2C31) ![last-commit](https://img.shields.io/github/last-commit/smzgl/powerproto) [![GoDoc](https://godoc.org/github.com/smzgl/powerproto?status.svg)](https://godoc.org/github.com/smzgl/powerproto) 
 
 **中文** | [English](README.md)
 
@@ -61,12 +61,12 @@ PowerProto主要用于解决下面三个问题：
 直接执行下面的命令即可进行安装：
 
 ```
-go install github.com/storyicon/powerproto/cmd/powerproto@latest
+go install github.com/smzgl/powerproto/cmd/powerproto@latest
 ```
 
 ### 二、开箱即用版本
 
-可以通过 [`Github Release Page`](https://github.com/storyicon/powerproto/releases) 下载开箱即用版本。
+可以通过 [`Github Release Page`](https://github.com/smzgl/powerproto/releases) 下载开箱即用版本。
 
 ## 命令介绍
 
@@ -223,7 +223,7 @@ $POWERPROTO_HOME/protoc/3.17.3/protoc --go_out=. \
 /mnt/data/hello/apis/hello.proto
 ```
 
-更多的例子可以参考 [示例](https://github.com/storyicon/powerproto/tree/master/examples).
+更多的例子可以参考 [示例](https://github.com/smzgl/powerproto/tree/master/examples).
 
 
 ## 配置文件
