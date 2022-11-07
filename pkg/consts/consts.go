@@ -32,6 +32,7 @@ const (
 	// The default include can be referenced by this key in import paths
 	KeyPowerProtoInclude = "$" + KeyNamePowerProtocInclude
 	KeyNameSourceRelative = "SOURCE_RELATIVE"
+	KeyNameSourceName     = "SOURCE_NAME"
 	// KeySourceRelative can be specified in import paths to refer to
 	// the folder where the current proto file is located
 	KeySourceRelative = "$" + KeyNameSourceRelative

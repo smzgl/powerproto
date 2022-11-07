@@ -178,5 +178,6 @@ func (b *BasicCompiler) calcVariables(ctx context.Context, protoFilePath string)
 	}
 	variables[consts.KeyNamePowerProtocInclude] = includePath
 	variables[consts.KeyNameSourceRelative] = filepath.Dir(protoFilePath)
+	variables[consts.KeyNameSourceName] = filepath.Base(protoFilePath)
 	return variables, nil
 }
